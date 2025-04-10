@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/home';
 import { About } from './pages/about';
 import { SingleDevice } from './pages/single-device';
-import styles from './App.module.css';
+import styles from './app.module.css';
 
 function App() {
   return (
