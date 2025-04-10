@@ -1,0 +1,53 @@
+{
+  "welcome": "Chào mừng đến với ứng dụng của chúng tôi",
+  "language": "Ngôn ngữ",
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "start": "Bắt đầu",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "done": "Hoàn thành"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ"
+  },
+  "game": {
+    "config": "Cấu hình",
+    "selectMode": "Chọn chế độ chơi:",
+    "modes": {
+      "oneDevice": "Ngoại tuyến",
+      "online": "Trực tuyến"
+    },
+    "player": "Người chơi",
+    "players": "Người chơi",
+    "addPlayer": "Thêm người chơi",
+    "language": "Ngôn ngữ",
+    "topic": "Chủ đề",
+    "timeLimit": "Thời gian",
+    "topics": {
+      "general": "Tổng quát",
+      "movies": "Phim ảnh",
+      "games": "Trò chơi"
+    },
+    "roles": {
+      "imposters": "Kẻ mạo danh",
+      "civilians": "Dân thường"
+    },
+    "gameplay": {
+      "playerTurn": "Lượt của {{name}}",
+      "tapToReveal": "Chạm để xem từ của bạn",
+      "yourWord": "Từ của bạn:",
+      "passToNext": "Chuyển cho người tiếp theo",
+      "allPlayersViewed": "Tất cả người chơi đã xem từ của họ",
+      "viewed": "Đã xem",
+      "current": "Hiện tại",
+      "waiting": "Đang chờ",
+      "startDiscussion": "Bắt đầu thảo luận"
+    }
+  }
+} 

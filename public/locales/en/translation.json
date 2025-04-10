@@ -1,0 +1,53 @@
+{
+  "welcome": "Welcome to our app",
+  "language": "Language",
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "start": "Start",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "game": {
+    "config": "Config",
+    "selectMode": "Select game mode:",
+    "modes": {
+      "oneDevice": "Offline",
+      "online": "Online"
+    },
+    "player": "Player",
+    "players": "Players",
+    "addPlayer": "Add Player",
+    "language": "Language",
+    "topic": "Topic",
+    "timeLimit": "Time limit",
+    "topics": {
+      "general": "General",
+      "movies": "Movies",
+      "games": "Games"
+    },
+    "roles": {
+      "imposters": "Imposters",
+      "civilians": "Civilians"
+    },
+    "gameplay": {
+      "playerTurn": "{{name}}'s Turn",
+      "tapToReveal": "Tap to reveal your word",
+      "yourWord": "Your Word:",
+      "passToNext": "Pass to Next Player",
+      "allPlayersViewed": "All Players Have Seen Their Words",
+      "viewed": "Viewed",
+      "current": "Current",
+      "waiting": "Waiting",
+      "startDiscussion": "Start Discussion"
+    }
+  }
+} 

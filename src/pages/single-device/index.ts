@@ -1,1 +1,0 @@
-export { SingleDevice } from './single-device'; 

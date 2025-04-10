@@ -1,0 +1,15 @@
+{
+  "welcome": "欢迎使用我们的应用",
+  "language": "语言",
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系我们"
+  }
+} 

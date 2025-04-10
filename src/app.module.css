@@ -4,12 +4,35 @@
   overflow: hidden;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #f0f2f5;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header nav a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  color: #40a9ff;
 }
 
 .main {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+  flex: 1;
+  padding: 2rem;
 } 

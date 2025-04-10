@@ -2,37 +2,197 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   min-height: 100vh;
-  width: 100vw;
-  margin: 0;
+  width: 100%;
+  background-color: #B5E6D8;
+  padding: 2rem 1rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.settingsButton {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(42, 157, 143, 0.2);
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
   padding: 0;
-  background-color: #242424;
-  position: fixed;
-  top: 0;
-  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  color: #2A9D8F;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
 }
 
-h1 {
-  color: #646cff;
-  margin-bottom: 1rem;
-  font-size: 2.5rem;
+.settingsButton:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(42, 157, 143, 0.4);
+  color: #2A9D8F;
 }
 
-p {
-  color: #666;
-  font-size: 1.1rem;
+.titleContainer {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.title {
+  color: #264653;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #2A9D8F;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.gameModesTitle {
+  color: #264653;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+  font-weight: 500;
 }
 
 .buttonContainer {
   display: flex;
-  gap: 40px;
-  margin-top: 20px;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
 }
 
 .button {
-  min-width: 160px;
-  height: 48px;
+  width: 100%;
+  height: 65px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 2px solid rgba(42, 157, 143, 0.2) !important;
+  color: #2A9D8F !important;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(42, 157, 143, 0.1);
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(42, 157, 143, 0.4) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(42, 157, 143, 0.2);
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 12px rgba(42, 157, 143, 0.1);
+}
+
+/* Settings Modal Styles */
+.settingsModal :global(.ant-modal-content) {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 2px solid rgba(42, 157, 143, 0.2);
+  box-shadow: 0 4px 12px rgba(42, 157, 143, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.settingsModal :global(.ant-modal-header) {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.settingsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2A9D8F;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.settingsTitle :global(.anticon-close) {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.languageOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.languageOptions h3 {
+  margin-bottom: 1rem;
+  color: #264653;
   font-size: 1.2rem;
+}
+
+.languageButton {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(42, 157, 143, 0.1);
+  color: #264653;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.languageButton:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(42, 157, 143, 0.3);
+  color: #2A9D8F;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .settingsButton {
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .button {
+    height: 60px;
+    font-size: 1.2rem;
+  }
 } 

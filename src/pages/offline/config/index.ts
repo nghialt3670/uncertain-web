@@ -1,0 +1,1 @@
+export { OfflineConfig } from './offline-config';
